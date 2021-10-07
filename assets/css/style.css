@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:wght@100&display=swap');
+/* font-family: 'Cinzel', serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Font: Cinzel, poppins.
+border: #ccc.
+color logo: #999.
+color home: #fff.
+color: #333
+ */
+
+header section{
+    background: url(../img/background.jpeg);
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > section p{
+    font-family: 'Cinzel', serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+}
+main > p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+main div:nth-of-type(1){
+    text-align: center;
+    padding: 40px;
+}
+main div:nth-of-type(2){
+    text-align: center;
+}
+main div:nth-of-type(1) img{
+    width: 200px;
+}
+main div:nth-of-type(2) img{
+    width: 200px;
+}
+main div img{
+    margin-left: 40px
+}
+main div p{
+    font-family: 'Poppins', sans-serif;
+}
+main div p strong{
+    color: red;
+}
+main div p strong:nth-of-type(5){
+    color: green;
+}
